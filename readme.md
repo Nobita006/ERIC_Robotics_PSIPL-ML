@@ -5,11 +5,6 @@
 #### **Objective**
 
 The objective was to develop a machine learning model to classify images of industrial equipment into two categories: **'defective'** and **'non-defective'**. This involved:
-1. Preparing a dataset with labeled images.
-2. Training a classification model.
-3. Evaluating the model using metrics such as **accuracy**, **precision**, and **recall**.
-4. Summarizing the methodology and insights.
-
 ---
 
 #### **Methodology**
@@ -89,29 +84,6 @@ The objective was to develop a machine learning model to classify images of indu
 
 ---
 
-#### **Future Recommendations**
-
-1. **Improving Defective Recall**:
-   - Explore additional augmentations tailored for defect characteristics (e.g., adding noise or distortion).
-   - Fine-tune more layers of ResNet18 or switch to a more advanced architecture like EfficientNet.
-
-2. **Data Expansion**:
-   - Gather more labeled defective images to reduce misclassifications further and increase recall.
-
-3. **Real-world Testing**:
-   - Deploy the model in real-world scenarios and continuously monitor its performance using feedback loops.
-
-4. **Explainability**:
-   - Implement visualization techniques like Grad-CAM to understand how the model interprets defects, aiding in debugging and trust-building.
-
----
-
 #### **Conclusion**
 
 The project successfully achieved the objective of classifying industrial equipment into 'defective' and 'non-defective' categories with a **95% accuracy**. Leveraging transfer learning, weighted loss, and dynamic augmentations ensured high model performance despite the class imbalance. This methodology provides a robust framework for industrial defect classification and can be extended to other similar applications. 
-
---- 
-
-**Attachments**:
-- Python Script: Included code for data preprocessing, training, and evaluation.
-- Model File: `industrial_defect_classifier.pth` for deployment.
